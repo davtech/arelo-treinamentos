@@ -1,0 +1,27 @@
+{
+  "name": "Arelo Treinamentos",
+  "version": "0.0.1",
+  "authors": [
+    "David Bastos <davtechh@gmail.com>"
+  ],
+  "description": "Site para inscrição de cursos",
+  "main": "index.html",
+  "keywords": [
+    "cursos",
+    "treinamentos"
+  ],
+  "license": "MIT",
+  "homepage": "wwww.arelo.com.br",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.1.1"
+  }
+}
