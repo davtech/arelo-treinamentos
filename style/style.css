@@ -7,17 +7,29 @@
 	margin-top: -10px;
 }
 
-/*MENU*/
+/*Menu*/
 
-.navbar-brand
- {
-    line-height: 105px;
-    height: 105px;
-    padding-top: 0;
+.navbar {
+	margin-bottom: 0px;
 }
 .navbar ul {
 	margin-top: 30px;
 }
+.navbar-default{
+	background-color: #ffffff;
+}
+.navbar-brand{
+    line-height: 105px;
+    height: 105px;
+    padding-top: 0;
+}
 .navbar-toggle{
 	margin-top: 30px;
+}
+
+/*Banner*/
+
+#banner{
+	height: 430px;
+	background-color: #999999;
 }
