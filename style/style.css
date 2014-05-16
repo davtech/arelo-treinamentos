@@ -1,3 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700);
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
 #top-azul{
 	background-color: #006cb5;
 	height: 15px;
@@ -7,7 +13,7 @@
 	margin-top: -10px;
 }
 
-/*Menu*/
+/*==================--------- Menu --------====================*/
 
 .navbar {
 	margin-bottom: 0px;
@@ -27,6 +33,37 @@
 	margin-top: 30px;
 }
 
+.navbar-default .navbar-nav>li>a{
+	border-radius: 2px;
+
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+	transition: 0.3s;
+
+} 
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: #e7e7e7;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{
+	color: #555;
+	background-color: #ffffff;
+}
+ .navbar-default .navbar-nav>.active>a:hover{
+ 	background-color: #e7e7e7;
+ }
+
+
+#separador{
+	margin-left: 5px;
+}
 /*Banner*/
 
 #banner{
