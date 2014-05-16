@@ -4,6 +4,9 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+
+/*==================--------- Topo Azul --------====================*/
+
 #top-azul{
 	background-color: #006cb5;
 	height: 15px;
@@ -32,7 +35,6 @@ body{
 .navbar-toggle{
 	margin-top: 30px;
 }
-
 .navbar-default .navbar-nav>li>a{
 	border-radius: 2px;
 
@@ -51,7 +53,6 @@ body{
 	-ms-transition: 0.5s;
 	transition: 0.5s;
 }
-
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{
 	color: #555;
 	background-color: #ffffff;
@@ -59,13 +60,9 @@ body{
  .navbar-default .navbar-nav>.active>a:hover{
  	background-color: #e7e7e7;
  }
-
-
 #separador{
 	margin-left: 5px;
 }
-
-
 #icone-carrinho-de-compras{
 	border-radius: 20px;
 	border: 2px #7f7e7e solid;
