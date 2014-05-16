@@ -64,6 +64,14 @@ body{
 #separador{
 	margin-left: 5px;
 }
+
+
+#icone-carrinho-de-compras{
+	border-radius: 20px;
+	border: 2px #7f7e7e solid;
+}
+
+
 /*Banner*/
 
 #banner{
