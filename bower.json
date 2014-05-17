@@ -23,6 +23,7 @@
   "dependencies": {
     "jquery": "~2.1.1",
     "bootstrap": "~3.1.1",
-    "font-awesome": "~4.1.0"
+    "font-awesome": "~4.1.0",
+    "mixitup": "~2.1.4"
   }
 }

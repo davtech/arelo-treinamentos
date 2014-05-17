@@ -69,9 +69,31 @@ body{
 }
 
 
-/*Banner*/
+/*==================--------- Banner --------====================*/
 
 #banner{
 	height: 430px;
 	background-color: #999999;
 }
+
+/*==================--------- Filtro de Categoria --------====================*/
+/*.pagination-centered{
+	text-align: center;
+}
+
+#filter{
+	padding-top: 60px;
+	padding-bottom: 45px;
+}
+*/
+/*==================--------- Cursos --------====================*/
+
+/*CURSO VERSAO 2*/
+/* general styling*/
+
+
+
+
+
+
+
