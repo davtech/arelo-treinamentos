@@ -99,8 +99,8 @@ body{
 /*Cursos*/
 /*======*/
 .curso{
-	max-width: 390px;
-	min-width: 300px;
+	/*max-width: 390px;*/
+	min-width: 305px;
 	/*height: 600px;*/
 	margin-bottom: 40px;
 }	
@@ -180,15 +180,21 @@ footer .container{
 	margin-top: 50px;
 	font-family: 'Open Sans: 600', sans-serif;
 }
+/*=========*/
+/*COLUNA 1*/
+/*contato*/
+.endereco-rodape{
+	min-width: 305px;
+}
 
-.endereco h3{
+.endereco-rodape h3{
 	font-size: 20px;
 	margin-bottom: 35px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 
 }
 
-.endereco address > p {
+.endereco-rodape address > p {
 	font-size: 14px;
 	letter-spacing: 1px;
 	line-height: 25px;
@@ -198,6 +204,9 @@ footer .container{
 	color: #717171;
 }
 
+#social ul {
+	margin-top: 40px;
+}
 #social ul li{
 	margin-right: 10px;
 }
@@ -220,3 +229,33 @@ footer .container{
 #icone-skype:hover {
 	color: #00aff0;
 }
+
+/*=========*/
+/*COLUNA 2*/
+/*blog*/
+
+.blog-rodape {
+	min-width: 300px;
+}
+
+.blog-rodape h3{
+	font-size: 20px;
+	margin-bottom: 35px;
+	letter-spacing: 1px;
+}
+
+.blog-rodape div{
+	margin-top: 18px;
+
+}
+.blog-rodape p{
+	font-size: 14px;	
+	line-height: 20px;
+}
+
+
+
+
+
+
+
