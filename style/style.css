@@ -2,10 +2,12 @@
 
 body{
 	font-family: 'Open Sans', sans-serif;
+	color: #7f7f7f;
 }
 
-
-/*==================--------- Topo Azul --------====================*/
+/*=========*/
+/*Topo Azul*/
+/*=========*/
 
 #top-azul{
 	background-color: #006cb5;
@@ -16,7 +18,9 @@ body{
 	margin-top: -10px;
 }
 
-/*==================--------- Menu --------====================*/
+/*====*/
+/*Menu*/
+/*====*/
 
 .navbar {
 	margin-bottom: 0px;
@@ -68,15 +72,19 @@ body{
 	border: 2px #7f7e7e solid;
 }
 
-
-/*==================--------- Banner --------====================*/
+/*======*/
+/*Banner*/
+/*======*/
 
 #banner{
 	height: 430px;
 	background-color: #999999;
 }
 
-/*==================--------- Filtro de Categoria --------====================*/
+/*===================*/
+/*Filtro de Categoria*/
+/*===================*/
+
 .pagination-centered{
 	text-align: center;
 }
@@ -86,25 +94,15 @@ body{
 	padding-bottom: 45px;
 }
 
-/*==================--------- Cursos --------====================*/
 
-/*CURSO VERSAO 2*/
-/* general styling*/
-
+/*======*/
+/*Cursos*/
+/*======*/
 .curso{
 	max-width: 390px;
 	min-width: 300px;
 	/*height: 600px;*/
 	margin-bottom: 40px;
-	
-/*	padding-left: 0px;
-	padding-right: 0px;*/
-/*	margin: 0px 15px 40px 15px;*/
-
-
-	/*-webkit-box-shadow: inset 0px 0px 0px 4px #f7f6f6;
-	-moz-box-shadow: inset 0px 0px 0px 4px #f7f6f6;
-	box-shadow: inset 0px 0px 0px 4px #f7f6f6;*/
 }	
 
 .borda {
@@ -134,6 +132,7 @@ body{
 }
 .curso .borda > p{
 	font-size: 18px;
+	color: #717171;
 }
 
 .borda p > .btn-default:hover {
@@ -158,4 +157,66 @@ body{
 .tag-data p{
 	margin-top: 8px;
 	font-size: 16px;
+}
+
+/*======*/
+/*RODAPÉ*/
+/*======*/
+ footer{
+ 	margin-top: 50px;
+ 	border-top: 1px #f2f1f1 solid ;
+ 	height: 470px;
+	background: #fdfcfc;
+    background: -moz-linear-gradient(top, #fdfcfc 0%, #f8f8f8 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #fdfcfc), color-stop(100%, #f8f8f8));
+    background: -webkit-linear-gradient(top, #fdfcfc 0%, #f8f8f8 100%);
+    background: -o-linear-gradient(top, #fdfcfc 0%, #f8f8f8 100%);
+    background: -ms-linear-gradient(top, #fdfcfc 0%, #f8f8f8 100%);
+    background: linear-gradient(to bottom, #fdfcfc 0%, #f8f8f8 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfcfc', endColorstr='#f8f8f8', GradientType=0 );
+
+ }
+footer .container{
+	margin-top: 50px;
+	font-family: 'Open Sans: 600', sans-serif;
+}
+
+.endereco h3{
+	font-size: 20px;
+	margin-bottom: 35px;
+	letter-spacing: 2px;
+
+}
+
+.endereco address > p {
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 25px;
+
+}
+#telefone-rodape{
+	color: #717171;
+}
+
+#social ul li{
+	margin-right: 10px;
+}
+#social ul li a {
+	color: #656363;
+}
+
+#icone-facebook:hover {
+	color: #3d5a99;
+}
+
+#icone-twitter:hover {
+	color: #5dd7fc;
+}
+
+#icone-google:hover {
+	color: #ff0f43;
+}
+
+#icone-skype:hover {
+	color: #00aff0;
 }
