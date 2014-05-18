@@ -258,6 +258,19 @@ footer .container{
 /*COLUNA 3*/
 /*plugin facebook*/
 
+.lebredigital{
+	margin-top: 10px;
+	font-size: 13px;
+	color: #a6a6a6;
+}
+.cartoes-rodape{
+	text-align: right;
+}
+#botton-azul{
+	background-color: #006cb5;
+	height: 7px;
+	margin-top: 20px;
+}
 
 
 
