@@ -165,7 +165,7 @@ body{
  footer{
  	margin-top: 50px;
  	border-top: 1px #f2f1f1 solid ;
- 	height: 470px;
+ 	/*height: 470px;*/
 	background: #fdfcfc;
     background: -moz-linear-gradient(top, #fdfcfc 0%, #f8f8f8 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, #fdfcfc), color-stop(100%, #f8f8f8));
@@ -184,7 +184,7 @@ footer .container{
 /*COLUNA 1*/
 /*contato*/
 .endereco-rodape{
-	min-width: 305px;
+	min-width: 305px; 
 }
 
 .endereco-rodape h3{
@@ -254,7 +254,9 @@ footer .container{
 }
 
 
-
+/*=========*/
+/*COLUNA 3*/
+/*plugin facebook*/
 
 
 

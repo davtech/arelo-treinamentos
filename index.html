@@ -18,6 +18,17 @@
 <body>
 
 	<header>
+    
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
 		<div id="top-azul"><img id="icon-top-azul" src="img/icon-top-azul.png" height="6" width="26"></div>
 
 		<nav class="navbar navbar-default navbar-static-top" role="navigation">
@@ -236,18 +247,19 @@
             <p> in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           </div>
         </div>
-        
 
-
-
-
-
-
-
-
-
-        <div class="col-xs-6 col-md-4"></div>
+        <!-- COLUNA 3 Facebook -->
+        <div class="col-xs-6 col-md-4">          
+          <div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="290" data-height="320" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+        </div>
       </div><!-- ROW -->
+
+      <hr>
+
+      <p>© 2014 <a href="http://lebredigital.com.br">lebredigital.com.br</a>  -  Todos os Direitos Reservados  </p>
+
+
+
     </div> <!-- CONTAINER -->
   </footer>
 
