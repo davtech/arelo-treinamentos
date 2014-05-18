@@ -136,15 +136,26 @@ body{
 	font-size: 18px;
 }
 
-.btn-default:hover{
+.borda p > .btn-default:hover {
 	color: #2f9b69;
 	background-color: #48ea9f;
 	border-color: #fff;
 }
+.tag-data{
+	color: #fff;
+	width: 80px;
+	height: 38px;
+	background-color: #f68e34;
 
+	-webkit-box-shadow: inset 4px 0px 0px 0px #df8130;
+	-moz-box-shadow: inset 4px 0px 0px 0px #df8130;
+	box-shadow: inset 4px 0px 0px 0px #df8130;
 
+	position: absolute;
+  	top: 35px;
+}
 
-
-
-
-
+.tag-data p{
+	margin-top: 8px;
+	font-size: 16px;
+}
