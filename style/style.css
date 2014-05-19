@@ -254,9 +254,7 @@ footer .container{
 }
 
 
-/*=========*/
-/*COLUNA 3*/
-/*plugin facebook*/
+/*=============*/
 
 .lebredigital{
 	margin-top: 10px;
@@ -272,5 +270,40 @@ footer .container{
 	margin-top: 20px;
 }
 
+
+/*=========*/
+/*.carousel*/
+/*=========*/
+
+.carousel-caption{
+	text-align: left;
+}
+.carousel-caption h2{
+	font-size: 40px;
+	font-weight: bold;
+
+}
+
+.carousel-caption p{
+	font-size: 22px;
+	margin-bottom: 40px;
+}
+
+.carousel-caption a{
+	margin-bottom: 50px;
+	background-color: #fff;
+	color: #074066;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+}
+.clearfix{
+	clear: both;
+
+}
 
 
