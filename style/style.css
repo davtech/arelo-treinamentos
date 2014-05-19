@@ -92,6 +92,11 @@ body{
 #filter{
 	padding-top: 60px;
 	padding-bottom: 45px;
+
+}
+#filter li{
+	margin-right: 8px;
+	margin-left: 8px;
 }
 
 
@@ -228,6 +233,9 @@ footer .container{
 
 #icone-skype:hover {
 	color: #00aff0;
+}
+#icone-linkedin:hover{
+	color: #007bb6;
 }
 
 /*=========*/
