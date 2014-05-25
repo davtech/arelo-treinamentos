@@ -1,9 +1,22 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,600,800,300);
 
 body{
 	font-family: 'Open Sans', sans-serif;
 	color: #7f7f7f;
 }
+
+.pagination-centered{
+	text-align: center;
+}
+
+.pagination-rigt{
+	text-align: right;
+}
+.pagination-left{
+	text-align: left;
+}
+
+
 
 /*=========*/
 /*Topo Azul*/
@@ -85,9 +98,6 @@ body{
 /*Filtro de Categoria*/
 /*===================*/
 
-.pagination-centered{
-	text-align: center;
-}
 
 #filter{
 	padding-top: 60px;
@@ -288,6 +298,44 @@ footer .container{
 	padding-top: 17px;
 	padding-bottom: 10px;
 }
+.curso-single{
+	margin-top: 15px;
+}
+.curso-single h1{
+	font-weight: 700;
+	font-size: 32px;
+	color: #343434;
+	margin-bottom: 20px
+}
+.curso-single p{
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.curso-single p span{
+	font-size: 18px;
+	font-weight: 600;
+}
+.curso-single button {
+	padding: 10px 30px 10px 30px;
+	background-color: #48ea9f;
+	color: #2f9b69;
+}
+.curso-single button:hover {
+	background-color: #3abf82;
+	color: #23754f;
+}
+#like-facebook{
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+.info-curso{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
 
+.info-curso h2{
+	font-weight: 600;
+	font-size: 18px;
 
+}
 
