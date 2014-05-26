@@ -4,19 +4,15 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	color: #7f7f7f;
 }
-
 .pagination-centered{
 	text-align: center;
 }
-
 .pagination-rigt{
 	text-align: right;
 }
 .pagination-left{
 	text-align: left;
 }
-
-
 
 /*=========*/
 /*Topo Azul*/
@@ -293,7 +289,6 @@ footer .container{
 /*======*/
 .migalhas{
 	background-color: #fbfbfb;
-	/*height: 45px;*/
 	margin-top: 27px;
 	padding-top: 17px;
 	padding-bottom: 10px;
