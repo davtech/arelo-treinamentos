@@ -42,7 +42,7 @@ body{
 	margin-top: 30px;
 }
 .navbar-default{
-	background-color: #ffffff;
+	background-color: #fdfdfd;
 }
 .navbar-brand{
     line-height: 105px;
@@ -53,8 +53,8 @@ body{
 	margin-top: 30px;
 }
 .navbar-default .navbar-nav>li>a{
+	background-color: #fdfdfd;
 	border-radius: 2px;
-
 	-webkit-transition: 0.3s;
 	-moz-transition: 0.3s;
 	-o-transition: 0.3s;
