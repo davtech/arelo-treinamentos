@@ -13,6 +13,8 @@
     <link href="componentes/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/style.css">
 
+  	
+
 	<title>Arelo | Cursos e Treinamentos</title>
 </head>
 <body>
@@ -85,26 +87,29 @@
   
   <!-- FILTRO -->
 
-  <div class="container pagination-centered">
-    <ul id="filter" class="clearfix list-inline">
-      <li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-th"></i>&nbsp; Todos</a></li>
-      <!-- <li></li> -->
-      <li><i class="fa fa-bar-chart-o"></i> Setor Contábil</li>
-      <!-- <li></li> -->
-      <li><i class="fa fa-file-text-o"></i> Setor Fiscal</li>
-      <!-- <li></li> -->
-      <li><i class="fa fa-users"></i> Setor Pessoal</li>
-      <!-- <li></li> -->
-      <li><i class="fa fa-money"></i> Setor Financeiro</li>     
-    </ul>
-  </div>
+  <div class="container pagination-centered" id="container">
+    <div class="filter magnet-filter">
+      <button class="active" type="button" data-filter="*"><i class="fa fa-th"></i>&nbsp; Todos</button>
+      
+      <button  type="button" data-filter="contabil"><i class="fa fa-bar-chart-o"></i> Setor Contábil</button>
+      
+      <button  type="button" data-filter="fiscal"><i class="fa fa-file-text-o"></i> Setor Fiscal</button>
+      
+      <button  type="button" data-filter="pessoal"><i class="fa fa-users"></i> Setor Pessoal</button>
+      
+      <button  type="button"><i class="fa fa-money"></i> Setor Financeiro</button>    
+    </div>
+	
+
+
+  <!-- </div> -->
 
   <!-- CURSOS -->
 
-  <div class="container pagination-centered">
-    <div class="row">
+  <!-- <div class="container pagination-centered"> -->
+    <div class="row magnet">
         
-      <div class="col-xs-6 col-md-4 curso">
+      <div class="col-xs-6 col-md-4 curso magnet-item fiscal">
         
         <div class="borda">
           <div class="tag-data"><p>03/06</p></div>
@@ -115,7 +120,7 @@
         </div>
       </div>
 
-      <div class="col-xs-6 col-md-4 curso">
+      <div class="col-xs-6 col-md-4 curso magnet-item contabil">
         
         <div class="borda">
           <div class="tag-data"><p>30/05</p></div>
@@ -126,7 +131,7 @@
         </div>
       </div>
 
-      <div class="col-xs-6 col-md-4 curso">
+      <div class="col-xs-6 col-md-4 curso magnet-item fiscal ">
         
         <div class="borda">
           <div class="tag-data"><p>31/05</p></div>
@@ -137,7 +142,7 @@
         </div>
       </div>
 
-      <div class="col-xs-6 col-md-4 curso">
+      <div class="col-xs-6 col-md-4 curso magnet-item fiscal">
         
         <div class="borda">
           <div class="tag-data"><p>09/06</p></div>
@@ -148,7 +153,7 @@
         </div>
       </div>
 
-      <div class="col-xs-6 col-md-4 curso">
+      <div class="col-xs-6 col-md-4 curso magnet-item pessoal">
         
         <div class="borda">
           <div class="tag-data"><p>01/07</p></div>
@@ -159,7 +164,7 @@
         </div>
       </div>
 
-      <div class="col-xs-6 col-md-4 curso">
+      <div class="col-xs-6 col-md-4 curso magnet-item pessoal">
         
         <div class="borda">
           <div class="tag-data"><p>14/07</p></div>
@@ -170,7 +175,7 @@
         </div>
       </div>
 
-      <div class="col-xs-6 col-md-4 curso">
+      <div class="col-xs-6 col-md-4 curso magnet-item fiscal">
         
         <div class="borda">
           <div class="tag-data"><p>15/07</p></div>
@@ -181,7 +186,7 @@
         </div>
       </div>
 
-      <div class="col-xs-6 col-md-4 curso">
+      <div class="col-xs-6 col-md-4 curso magnet-item contabil">
         
         <div class="borda">
           <div class="tag-data"><p>19/07</p></div>
@@ -192,7 +197,7 @@
         </div>
       </div>
 
-      <div class="col-xs-6 col-md-4 curso">
+      <div class="col-xs-6 col-md-4 curso magnet-item contabil">
         
         <div class="borda">
           <div class="tag-data"><p>19/07</p></div>
@@ -338,11 +343,15 @@
 	</div>
 
 
-	<!-- MIXITUP -->
-  <!--<script src="componentes/mixitup/build/jquery.mixitup.min.js" type="text/javascript"></script> -->
+	
 	<!-- jQuery  -->
 	<script src="componentes/jquery/dist/jquery.min.js"></script>
 	<!-- bootstrap JS -->
 	<script src="componentes/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- magnet -->
+	<script src="scripts/magnet.min.js"></script>
+	<!-- scripts jquery initialise -->
+	<script src="scripts/script.js"></script>  
+
 </body>
 </html>
