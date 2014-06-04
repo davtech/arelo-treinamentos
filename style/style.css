@@ -109,8 +109,8 @@ body{
 .filter button:hover{
 	color: #006cb5;
 }
-.filter button:focus{
-	color: #006cb5;
+.filter button:active{
+	color: #784417;
 }
 
 /*======*/
