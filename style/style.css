@@ -344,3 +344,30 @@ footer .container{
 .mapa li{
 	margin-bottom: 10px;
 }
+
+
+/*inCompany*/
+.incompany{
+	margin-top: 25px;
+}
+.incompany h2{
+	font-size: 23px;
+	font-weight: 600;
+}
+.incompany h3{
+	font-size: 16px;
+	font-weight: 700;
+}
+.incompany hr{
+	margin-top: 35px;
+}
+.incompany img{
+	
+}
+.incompany .row{
+	margin-bottom: 10px;
+}
+.espincompany{
+	margin-bottom: 50px;
+}
+/*FIM inCompany*/
